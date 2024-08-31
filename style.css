@@ -1,0 +1,46 @@
+body{
+    font-family: "Gabarito", system-ui;
+}
+.header{
+    background-color:rgba(128, 0, 128, 0.505);
+    display: flex;
+    justify-content:center;
+    margin: 20px;
+}
+.card{
+    display: flex;
+    background-color:aqua;
+    color: black;
+    width:250px;
+    border-radius: 15px;
+    height: 320px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid black 3px;
+}
+.card-one h2{
+    margin: 5px;
+   }
+
+.x{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: 200px;
+    border-radius:10px;
+    margin-bottom: 10px;
+    border: solid black 3px;
+   }
+
+.card-one{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
